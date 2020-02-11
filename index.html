@@ -101,17 +101,14 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-          <img src="firefoxlogo120"> 
+          <img src="firefoxlogo120.png"> 
     </header>
 
     <main>
       <article>
         <!-- insert iframe from youtube -->
 
-        <video controls width="400">
-        <source src="https://youtu.be/ojcNcvb1olg" type="video/mp4">
-        </video>
-
+        <iframe width="400" height="225" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allowfullscreen></iframe>
         <h2>Rocking the free web</h2>
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -124,7 +121,7 @@
         <a href="https://www.mozilla.org/en-US/firefox/new/">
           
            <img srcset="firefoxlogo120.png 120w,
-                       firefoxlogo400 400w"
+                       firefoxlogo400.png 400w"
                sizes="(max-width: 500px) 120px,
                       400px"
                src="firefoxlogo400.png" alt="Fire Fox">
@@ -132,7 +129,7 @@
         <a href="https://www.mozilla.org/">
 
             <img srcset="firefoxaddons120.jpg 120w,
-                       firefoxaddons400 400w"
+                       firefoxaddons400.jpg 400w"
                sizes="(max-width: 500px) 1200px,
                        400px"
                src="firefoxaddons400.jpg" alt="Fire Fox Addons">
@@ -141,14 +138,14 @@
         <a href="https://addons.mozilla.org/">
 
           <img srcset="mozilladinosaurhead120.png 120w,
-                      mozilladinosaurhead400 400"
+                      mozilladinosaurhead400.png 400"
                sizes="(max-width: 500px) 120px,
                       400px"
                src="mozilladinosaurhead400.png" alt="Mozilla Addins">
 
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>src="mdn.svg" alt="Adobe Illustrator">
+          <img src="mdn.svg" alt="Adobe Illustrator">
         </a>
         <div class="clearfix"></div>
       </div>
@@ -156,15 +153,15 @@
       <div class="red-panda">
         <!-- insert picture element -->
 
+       
         <picture>
-            <source media="max-width: 600px" srcset="red-panda600.png">
-            <img src="red-panda1200.png" alt="Adobe Illustrator">
-                       red-panda600"
-               sizes="(max-width: 600px) 1200px"
-               src="red-panda1200.png" alt="Adobe Illustrator">
-       </picture>
+          <source media="(max-width: 600px)" srcset="red-panda600.jpg">
+          <img src="red-panda1200.jpg" alt="Red Panda">
+        </picture>
+                                                              
       </div>
 
     </main>
+                                                              
   </body>
 </html>
